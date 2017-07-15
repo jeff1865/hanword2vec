@@ -9,7 +9,7 @@ public class HanProcessor {
 	private Komoran komoran = null ;
 	
 	public HanProcessor() {
-		komoran = new Komoran("/Users/1002000/dev/myworks/crawl/crawlCore/dicdata") ;
+		komoran = new Komoran("dicdata") ;
 	}
 	
 	public String filterNN(String src) {
